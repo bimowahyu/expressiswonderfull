@@ -7,4 +7,4 @@ app.get('/',(req,res)=> {
 })
 const port = 3021
 
-app.listen(port,() =>{'hello world'})
+app.listen(port,()=> {console.log('hello')})
